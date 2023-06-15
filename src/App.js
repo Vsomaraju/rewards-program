@@ -1,7 +1,7 @@
 // Styles
 import "./App.css";
 // Components
-import RewardsProgram from "./components/RewardsProgram";
+import RewardsProgram from "./common-components/RewardsProgram";
 
 function App() {
   return (

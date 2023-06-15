@@ -3,12 +3,12 @@ import { useEffect, useState } from "react";
 // Styles
 import "../styles/RewardsProgram.css";
 // Mock
-import { mockTransactions } from "../mocks/transactions";
+import { mockTransactions } from "../transactions-demo-data/transactions";
 // UTILS
 import {
   calculateRewardsPerMonth,
   calculateTotalPoints,
-} from "../utils/rewardsUtils";
+} from "../common-function-utilities/rewardsUtils";
 
 // RewardsProgram Component
 const RewardsProgram = () => {

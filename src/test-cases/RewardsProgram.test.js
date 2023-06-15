@@ -1,7 +1,7 @@
 import {
   calculatePoints,
   calculateRewardsPerMonth,
-} from "../utils/rewardsUtils.js";
+} from "../common-function-utilities/rewardsUtils";
 
 describe("calculatePoints", () => {
   it("calculates points correctly for a purchase amount over $100", () => {
